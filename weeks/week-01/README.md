@@ -14,7 +14,7 @@
 - [MIT Missing Semester — Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/); focus on `init`, `status`, `add`, `commit`.
 
 **Read**
-- [CS50P Lecture 0 notes](https://cs50.harvard.edu/python/0/).
+- [CS50P Lecture 0 notes](https://cs50.harvard.edu/python/weeks/0/).
 - [NHATS website](https://nhats.org/) and its overview/documentation pages. Identify what the **sample-person**, **other-person**, and **tracker** files describe; do not assume they share the same unit of observation.
 
 **Math essentials**
