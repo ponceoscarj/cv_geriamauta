@@ -19,7 +19,7 @@
 
 **Math essentials**
 - Variables, symbolic notation and substitution: `age_i`, `score_i,t`.
-- Change between measurements: \(\Delta s=s_{t+1}-s_t\).
+- Change between measurements: $(\Delta s=s_{t+1}-s_t\$.
 - Distinguish score difference from percentage difference.
 
 **NHATS task (synthetic data)**
