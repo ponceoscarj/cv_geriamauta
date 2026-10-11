@@ -1,29 +1,3 @@
-# Python, Mathematics and AI Research with NHATS — Revised Plan (v2)
-
-**48 weeks · about 11–12 hours per week · beginner to an NHATS longitudinal clock-drawing JEPA prototype**
-
-For a learner with a medical background and little Python, machine-learning, mathematics, statistics or probability.
-
-## What changed from v1
-
-| Change | Why |
-| --- | --- |
-| 32 weeks → **48 weeks** (plan for a year with slip) | v1 gave one week each to transformers, self-supervised learning, VAEs and diffusion. Each needs more than a week for a beginner. |
-| **Kept** RNN/LSTM, diffusion and world models | You asked to keep them. Each now has a concrete NHATS task, and RNN/LSTM gets two weeks (irregular follow-up is the hard part). |
-| Python setup, Git, file I/O, pandas depth, scikit-learn added (Weeks 1–6, 17–18) | v1 skipped them; beginners lose weeks to environments and data wrangling. |
-| Matrix calculus and Karpathy's micrograd added (Weeks 20, 22–23) | CS231n backprop needs gradients with respect to weight matrices. 3Blue1Brown alone does not teach this. |
-| Survey weights, informative missingness, outcome circularity and survival/competing risks moved to **Weeks 9–12** | In v1 they appeared at Week 32 or not at all. |
-| Clinical framing of probability and statistics (diagnostic tests, Bayes, leakage) | A clinician already has the intuition. This speeds up Weeks 15–18. |
-| **Every week has an NHATS task.** Weeks where NHATS cannot supply the data add an open clinical dataset | As requested. |
-| Pre-specified study protocol (Week 40) and AI-assistant policy | Keeps the comparisons honest and the checkpoints meaningful. |
-
-Data access is assumed solved: NHATS public-use files and the clock images are available to you.
-
-## Two NHATS facts that shape the design
-
-1. **The NHATS dementia classification is partly built from the clock.** It uses three cognitive domains: memory (word recall), orientation, and executive function (the clock drawing test). A model that predicts "probable dementia" from clock images is therefore partly predicting its own input. Outcomes in this plan avoid clock-derived components (see Weeks 11 and 47).
-2. **The clock score itself may be model-generated.** A paper on NHATS clock coding reports that a ViT-based coding system has been used in NHATS's annual clock coding since 2022. Check the NHATS documentation for which rounds were hand-coded and which were model-coded. A ViT embedding may then partly encode the score used as a label or baseline, and coding-era drift can look like clinical change.
-
 ## Structure
 
 | Phase | Weeks | Focus | Main NHATS output |
